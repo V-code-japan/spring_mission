@@ -63,8 +63,8 @@ player.onChat("id", function() {
 - **id**: エージェントがそのばにとまる
 
 エージェントをとびらのまえまでうごかせたら、もういちど**C**をおして、この画面をひらきましょう。
-![complete](/docs/static/spring_mission1_complete.gif)
-<img src="/docs/static/spring_mission1_complete.gif" width=50%>
+![complete](/static/spring_mission1_complete.gif)
+<img src="/static/spring_mission1_complete.gif" width=50%>
 
 
 
