@@ -1,4 +1,4 @@
-# とびらのさきにすすもう！ @showdialog
+# とびらのさきにすすもう！
 じどうでしまるとびらのさきにすすもう！
 ``` template
 player.onChat("fl", function() {   
@@ -14,7 +14,7 @@ player.onChat("go", function() {
 });
 ``` 
 
-## くふうしてとびらのさきにすすもう @showhint
+## くふうしてとびらのさきにすすもう
 **感圧版(かんあつばん)をふむととびらがひらく**ようですが、**感圧版のうえからはなれるととじてしまいます**。
 くふうして、とびらのさきにすすみましょう！
 ![mission2_question](/static/spring_mission2_question.gif)
