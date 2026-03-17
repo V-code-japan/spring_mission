@@ -62,9 +62,13 @@ player.onChat("id", function() {
 - **fl**: エージェントがプレイヤーのあとをついてくる
 - **id**: エージェントがそのばにとまる
 
+### ~reminder
+
 エージェントをとびらのまえまでうごかせたら、もういちど**C**をおして、この画面をひらきましょう。
 ![complete](/static/spring_mission1_complete.gif)
 <img src="/static/spring_mission1_complete.gif" width=50%>
+
+### ~
 
 
 
