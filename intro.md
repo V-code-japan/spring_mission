@@ -12,7 +12,7 @@ player.onChat("id", function () {
 ```
 ```block
 player.onChat("fl", function() {   
-    agent.setAgentModeTo(AgentStates.follow);
+    agent.setAgentModeTo(AgentStates.follow)
 });
 player.onChat("id", function() {   
     agent.setAgentModeTo(AgentStates.go);
