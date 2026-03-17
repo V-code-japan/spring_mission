@@ -24,17 +24,17 @@ player.onChat("go", function() {
 });
 ```
 
-## エージェントをうごかそう @showdialog
+## エージェントをうごかそう @showhint
 <p>エージェントをスイッチまでいどうさせよう！</p>
 <br></br>
-<img src="/static/spring_mission1_complete.gif" width=50%><img src="/static/spring_mission1_complete2.gif" width=50%>
+<img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif" width=50%><img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif" width=50%>
 
 ## ついせきモード
 `||agent.エージェント||`を**ついせきモード**にすると、エージェントが**プレイヤーのあとをついてあるきます**。
 このモードをつかって、**エージェントをとびらのまえまでうごかしましょう！**
 
 
-## プログラミングしよう @fullscreen
+## プログラミングしよう
 - `||agent.エージェント||`から、`||agent.エージェントをつぎのモードにする||`をとりだす
 - `||player.チャットコマンド fl を入力(にゅうりょく)した時||`にはめこむ
 ```block
@@ -65,8 +65,7 @@ player.onChat("id", function() {
 ### ~reminder
 
 エージェントをとびらのまえまでうごかせたら、もういちど**C**をおして、この画面をひらきましょう。
-![complete](/static/spring_mission1_complete.gif)
-<img src="/static/spring_mission1_complete.gif" width=50%>
+![complete](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif)
 
 ### ~
 
@@ -104,7 +103,7 @@ player.onChat("go", function() {
 1. **エージェントのえ**を**みぎクリック**して、エージェントがとおれるようにする
 2. チャットで**go**とにゅうりょくする
 
-<img src="/static/spring_mission1_complete2.gif" width=50%>
+![complete2](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif)
 
 
 
