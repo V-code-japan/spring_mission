@@ -5,7 +5,7 @@ player.onChat("fl", function() {
     agent.setAgentModeTo(AgentStates.follow)
 });
 player.onChat("id", function() {   
-    agent.setAgentModeTo(AgentStates.go);
+    agent.setAgentModeTo(AgentStates.idle);
 });
 player.onChat("go", function() {
     agent.move(UP, 4);
