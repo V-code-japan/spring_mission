@@ -12,10 +12,10 @@ player.onChat("id", function () {
 ```
 ```block
 player.onChat("fl", function() {   
-    springMissions.setAgentModeTo(AgentStates.follow);
+    agent.setAgentModeTo(AgentStates.follow);
 });
 player.onChat("id", function() {   
-    springMissions.setAgentModeTo(AgentStates.go);
+    agent.setAgentModeTo(AgentStates.go);
 });
 player.onChat("go", function() {
     agent.move(UP, 4);
@@ -35,11 +35,11 @@ player.onChat("go", function() {
 
 
 ## プログラミングしよう
-- `||springMissions.春の大脱出||`から、`||springMissions.エージェントをつぎのモードにする||`をとりだす
+- `||agent.春の大脱出||`から、`||agent.エージェントをつぎのモードにする||`をとりだす
 - `||player.チャットコマンド fl を入力(にゅうりょく)した時||`にはめこむ
 ```block
 player.onChat("fl", function() {   
-    springMissions.setAgentModeTo(AgentStates.follow);
+    agent.setAgentModeTo(AgentStates.follow);
 });
 ```
 
@@ -48,12 +48,12 @@ player.onChat("fl", function() {
 チャットで**id**とにゅうりょくしたら、たいきモードになるようにプログラミングしましょう！
 
 ## プログラミングしよう
-- `||springMissions.春の大脱出||`から、`||springMissions.エージェントをつぎのモードにする||`をとりだす
+- `||agent.春の大脱出||`から、`||agent.エージェントをつぎのモードにする||`をとりだす
 - `||player.チャットコマンド id を入力(にゅうりょく)した時||`にはめこむ
 - モードを**たいきモード**にする
 ```block
 player.onChat("id", function() {   
-    springMissions.setAgentModeTo(AgentStates.idle);
+    agent.setAgentModeTo(AgentStates.idle);
 });
 ```
 ## エージェントをとびらのまえまでうごかそう！
