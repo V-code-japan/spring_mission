@@ -14,7 +14,7 @@
         "intro.md",
         "_locales/ja/intro.md",
         "opening.md",
-        "docs/static/"
+        "docs/static/*"
     ],
     "testFiles": [
         "test.ts"
