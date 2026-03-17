@@ -24,17 +24,17 @@ player.onChat("go", function() {
 });
 ```
 
-## エージェントをうごかそう @unplugged
+## エージェントをうごかそう @showdialog
 <p>エージェントをスイッチまでいどうさせよう！</p>
 <br></br>
-<img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif" width=50%><img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif" width=50%>
+<img src="/docs/static/spring_mission1_complete.gif" width=50%><img src="/docs/static/spring_mission1_complete2.gif" width=50%>
 
 ## ついせきモード
 `||agent.エージェント||`を**ついせきモード**にすると、エージェントが**プレイヤーのあとをついてあるきます**。
 このモードをつかって、**エージェントをとびらのまえまでうごかしましょう！**
 
 
-## プログラミングしよう
+## プログラミングしよう @fullscreen
 - `||agent.エージェント||`から、`||agent.エージェントをつぎのモードにする||`をとりだす
 - `||player.チャットコマンド fl を入力(にゅうりょく)した時||`にはめこむ
 ```block
@@ -56,15 +56,16 @@ player.onChat("id", function() {
     agent.setAgentModeTo(AgentStates.idle);
 });
 ```
-## エージェントをとびらのまえまでうごかそう！
+## エージェントをとびらのまえまでうごかそう！ @showhint
 これでエージェントがついてくるようになりました！
 右下の**▶**(じっこうボタン)をおして、したのようににゅうりょくしてみましょう。
 - **fl**: エージェントがプレイヤーのあとをついてくる
 - **id**: エージェントがそのばにとまる
 
 エージェントをとびらのまえまでうごかせたら、もういちど**C**をおして、この画面をひらきましょう。
+![complete](/docs/static/spring_mission1_complete.gif)
+<img src="/docs/static/spring_mission1_complete.gif" width=50%>
 
-<img src="/static/spring_mission1_complete.gif" width=50%>
 
 
 ## エージェントをスイッチまでうごかす
