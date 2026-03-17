@@ -13,7 +13,8 @@
         "custom.ts",
         "intro.md",
         "_locales/ja/intro.md",
-        "opening.md"
+        "opening.md",
+        "docs/static/"
     ],
     "testFiles": [
         "test.ts"
