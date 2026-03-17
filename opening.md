@@ -1,28 +1,18 @@
-<style>
-.column-left {
-float: left;
-width: 47.5%;
-text-align: left;
-}
-.column-right {
-float: right;
-width: 47.5%;
-text-align: left;
-}
-</style>
-
-
 # とびらのさきにすすもう！@unplugged
 じどうでしまるとびらのさきにすすもう！
-
+``` template
+player.onChat("fl", function() {   
+    agent.setAgentModeTo(AgentStates.follow)
+});
+player.onChat("id", function() {   
+    agent.setAgentModeTo(AgentStates.go);
+});
+player.onChat("go", function() {
+    agent.move(UP, 4);
+    agent.move(FORWARD, 2);
+    agent.move(DOWN, 4);
+});
+``` 
 ## くふうしてとびらのさきにすすもう
-<div class="column-left">
-### 左側のコンテンツ
-- リスト1
-- リスト2
-</div>
-<div class="column-right">
-### 右側のコンテンツ
-- リストA
-- リストB
-</div>
+**感圧版(かんあつばん)をふむととびらがひらく**ようですが、**感圧版のうえからはなれるととじてしまいます**。
+くふうして、とびらのさきにすすみましょう！
