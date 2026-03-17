@@ -12,7 +12,8 @@
         "main.ts",
         "custom.ts",
         "intro.md",
-        "_locales/ja/intro.md"
+        "_locales/ja/intro.md",
+        "opening.md"
     ],
     "testFiles": [
         "test.ts"
