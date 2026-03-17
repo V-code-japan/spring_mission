@@ -13,8 +13,9 @@ player.onChat("go", function() {
     agent.move(DOWN, 4);
 });
 ``` 
-## くふうしてとびらのさきにすすもう @fullscreen
+
+## くふうしてとびらのさきにすすもう @showhint
 **感圧版(かんあつばん)をふむととびらがひらく**ようですが、**感圧版のうえからはなれるととじてしまいます**。
 くふうして、とびらのさきにすすみましょう！
-![complete1](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif)
+![mission2_question](/static/spring_mission2_question.gif)
 
