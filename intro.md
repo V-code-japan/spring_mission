@@ -27,7 +27,7 @@ player.onChat("go", function() {
 ## エージェントをうごかそう @showdialog
 <p>エージェントをスイッチまでいどうさせよう！</p>
 <br></br>
-<img src="/static/spring_mission1_complete.gif" width=50%><img src="/static/spring_mission1_complete2.gif" width=50%>
+<img src="/docs/static/spring_mission1_complete.gif" width=50%><img src="/docs/static/spring_mission1_complete2.gif" width=50%>
 
 ## ついせきモード
 `||agent.エージェント||`を**ついせきモード**にすると、エージェントが**プレイヤーのあとをついてあるきます**。
@@ -56,15 +56,15 @@ player.onChat("id", function() {
     agent.setAgentModeTo(AgentStates.idle);
 });
 ```
-## エージェントをとびらのまえまでうごかそう！
+## エージェントをとびらのまえまでうごかそう！ @showhint
 これでエージェントがついてくるようになりました！
 右下の**▶**(じっこうボタン)をおして、したのようににゅうりょくしてみましょう。
 - **fl**: エージェントがプレイヤーのあとをついてくる
 - **id**: エージェントがそのばにとまる
 
 エージェントをとびらのまえまでうごかせたら、もういちど**C**をおして、この画面をひらきましょう。
-
-<img src="/static/spring_mission1_complete.gif" width=50%>
+![complete](/docs/static/spring_mission1_complete.gif)
+<img src="/docs/static/spring_mission1_complete.gif" width=50%>
 
 
 
