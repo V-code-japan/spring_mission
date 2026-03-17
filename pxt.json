@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "custom.ts",
-        "intro.md"
+        "intro.md",
+        "_locales/ja/intro.md"
     ],
     "testFiles": [
         "test.ts"

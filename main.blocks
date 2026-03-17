@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="2{%F~)apDICTKo^W@ClA" x="20" y="20"><statement name="HANDLER"><block type="agent_setAgentModeTo" id="KVb21GjQyS3SXn%{eGND"><field name="state">AgentStates.follow</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="^LOmHcSQ[2YiF(2B;x{E" x="0" y="0"></block></xml>
