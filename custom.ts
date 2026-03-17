@@ -57,7 +57,7 @@ const stateNames = {
 
 namespace agent {
     /** 
-     * @param state Agent State, eg: follow
+     * @param state Agent State, eg: AgentStates.follow
      */
     //% block="set Agent mode to $state"
     //% block.loc.ja="エージェントをつぎのモードにする $state"
