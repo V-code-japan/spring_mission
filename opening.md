@@ -1,4 +1,4 @@
-# とびらのさきにすすもう！@unplugged
+# とびらのさきにすすもう！@showdialog
 じどうでしまるとびらのさきにすすもう！
 ``` template
 player.onChat("fl", function() {   
@@ -13,6 +13,8 @@ player.onChat("go", function() {
     agent.move(DOWN, 4);
 });
 ``` 
-## くふうしてとびらのさきにすすもう
+## くふうしてとびらのさきにすすもう@fullscreen
 **感圧版(かんあつばん)をふむととびらがひらく**ようですが、**感圧版のうえからはなれるととじてしまいます**。
 くふうして、とびらのさきにすすみましょう！
+![complete1](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif)
+
