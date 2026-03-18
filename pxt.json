@@ -14,7 +14,8 @@
         "intro.md",
         "opening.md",
         "mazeLv1.md",
-        "mazeLv2.md"
+        "mazeLv2.md",
+        "mazeLv3.md"
     ],
     "testFiles": [
         "test.ts"
