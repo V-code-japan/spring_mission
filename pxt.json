@@ -13,7 +13,8 @@
         "custom.ts",
         "intro.md",
         "_locales/ja/intro.md",
-        "opening.md"
+        "opening.md",
+        "mazeLv1.md"
     ],
     "testFiles": [
         "test.ts"
