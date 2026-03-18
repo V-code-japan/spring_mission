@@ -24,7 +24,7 @@ player.onChat("go", function() {
 });
 ```
 
-## エージェントをうごかそう @showdialog
+## エージェントをうごかそう @unplugged
 <p>エージェントをスイッチまでいどうさせよう！</p>
 <br></br>
 <img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif" width=50%><img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif" width=50%>
