@@ -8,7 +8,7 @@ player.onChat("id", function() {
     agent.setAgentModeTo(AgentStates.idle);
 });
 player.onChat("ob", function() {
-    agent.setAgentModeTo(AgentStates.idle);
+    agent.setAgentModeTo(AgentStates.observe);
 });
 player.onChat("at", function() {   
     agent.setAgentModeTo(AgentStates.attack);
