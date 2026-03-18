@@ -14,7 +14,8 @@
         "intro.md",
         "_locales/ja/intro.md",
         "opening.md",
-        "mazeLv1.md"
+        "mazeLv1.md",
+        "mazeLv2.md"
     ],
     "testFiles": [
         "test.ts"
