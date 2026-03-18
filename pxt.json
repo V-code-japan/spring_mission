@@ -12,7 +12,6 @@
         "main.ts",
         "custom.ts",
         "intro.md",
-        "_locales/ja/intro.md",
         "opening.md",
         "mazeLv1.md",
         "mazeLv2.md"
