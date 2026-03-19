@@ -61,7 +61,6 @@ namespace agent {
      */
     //% block="set Agent mode to $state"
     //% block.loc.ja="エージェントをつぎのモードにする $state"
-    //% Jsdoc.loc.ja="エージェントのモードをかえる"
     export function setAgentModeTo(state: AgentStates): void {
         const eventKey: string = eventNames[state];
         const eventId: string = `edu:${eventKey}`;
