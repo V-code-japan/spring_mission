@@ -11,6 +11,7 @@
         "main.blocks",
         "main.ts",
         "custom.ts",
+        "start.md",
         "intro.md",
         "opening.md",
         "mazeLv1.md",
