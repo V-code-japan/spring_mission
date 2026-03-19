@@ -27,8 +27,8 @@ player.onChat("go", function() {
 ## エージェントをうごかそう @unplugged
 エージェントをスイッチまでいどうさせよう！
 
-![complete](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif)
-![complete2](https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif)
+<img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete.gif" width=50%><img src="https://vcode-esia.com/images_for_world_data/2026_spring/spring_mission1_complete2.gif" width=50%>
+
 
 
 ## ついせきモード
