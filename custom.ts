@@ -12,23 +12,17 @@
 // }
 
 enum AgentStates {
-    //% block="follow"
-    //% block.loc.ja="ついせきモード"
+    //% block="ついせきモード"
     follow = 0,
-    //% block="attack"
-    //% block.loc.ja="こうげきモード"
+    //% block="こうげきモード"
     attack = 1,
-    //% block="destroy"
-    //% block.loc.ja="スポナーはかいモード"
+    //% block="スポナーはかいモード"
     destroy = 2,
-    //% block="dance"
-    //% block.loc.ja="ダンスモード"
+    //% block="ダンスモード"
     dance = 3,
-    //% block="observe"
-    //% block.loc.ja="カメラモード"
+    //% block="カメラモード"
     observe = 4,
-    //% block="idle"
-    //% block.loc.ja="たいきモード"
+    //% block="たいきモード"
     idle = 5,
 }
 
@@ -59,8 +53,7 @@ namespace agent {
     /** 
      * @param state Agent State, eg: AgentStates.follow
      */
-    //% block="set Agent mode to $state"
-    //% block.loc.ja="エージェントをつぎのモードにする $state"
+    //% block="エージェントをつぎのモードにする $state"
     export function setAgentModeTo(state: AgentStates): void {
         const eventKey: string = eventNames[state];
         const eventId: string = `edu:${eventKey}`;
