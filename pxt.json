@@ -16,7 +16,8 @@
         "opening.md",
         "mazeLv1.md",
         "mazeLv2.md",
-        "mazeLv3.md"
+        "mazeLv3.md",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "test.ts"
